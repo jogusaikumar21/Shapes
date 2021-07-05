@@ -1,0 +1,56 @@
+header
+{
+  display:flex;
+  justify-content: space-evenly;
+  background-color: bisque;
+
+}
+#h
+{
+  display: flex;
+  justify-content:flex-end;
+}
+#str
+{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#main
+{
+  display: flex;
+  flex-direction:column;
+  justify-content:flex-end;
+  align-items: flex-end;
+  
+
+}
+button
+{
+  background-color: red;
+  color: white;
+  border-radius: 5vh;
+  width: 30vh;
+  padding: 2vh;
+}
+Button{
+  border-radius: 6vh;
+  background-color: blue;
+  color: white;
+}
+#main2
+{
+  display: flex;
+  width: 44vh;
+  height: 55vh;
+  justify-content:space-evenly;
+  flex-direction: column;
+  align-items:center;
+  border: 1px solid gray;
+  position: relative;
+  bottom: 5vh;
+  right: 5vh;
+  box-shadow: 6px 6px 6px 6px rgb(204, 204, 204)
+  
+}
